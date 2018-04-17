@@ -1,0 +1,5 @@
+#!/bin/sh
+ODOO=/home/jingxing/odoo-dev/projectname/src/odoo-9.0/odoo.py
+PYTHON=/home/jingxing/odoo-dev/projectname/odoo9.1env/bin/python
+$PYTHON $ODOO -c /home/jingxing/odoo-dev/projectname/projectname.cfg "$*"
+exit $?
